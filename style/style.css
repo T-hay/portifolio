@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root{
+    --color:#111111;
+    --color2:#FFFFFF;
+}
+body{
+    background-color: var(--color);
+
+    
+   
+}
+.logo{
+    color: var(--color2);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.navbar{
+    width: 100vw;
+    height: 123px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    color: var(--color2);
+    font-family: 'Inter', sans-serif;
+    padding-right: 30px;
+}
+.navbarHome{
+    padding-left: 10vw;
+}
+.navbarItens{
+    padding-right: 8vw;
+    
+}
+.text-main{
+    color: var(--color2);
+    font-family: 'Inter', sans-serif;
+    padding-top: 30px;
+
+}
+@font-face{
+    font-family: 'Thayla';
+    src: url('/fonts/GTWalsheimPro-Medium.ttf') format('');
+    
+}
+
+main{
+    padding-top: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: justify;
+}
+.gradiente{
+
+    font-family: Thayla;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    background-image: linear-gradient(to right, #9845E8, #33D2FF,#DD5789,#DD5789,#DD5789, #61EBF0 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.links{
+    padding-top: 30px;
+}
+.linksColor{
+    color: var(--color2);
+    font-family: 'Inter', sans-serif;
+}
+
+
